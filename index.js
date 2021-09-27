@@ -129,5 +129,25 @@ switch (argumentos[0].toUpperCase()) {
         });
         break;
 
+    case "HELP" || "?" :
+        console.log("Always Musica 1.0");
+        console.log("Sistema básico de manejo de datos en la base de datos");
+        console.log("");
+        console.log("Posibles opciones:");
+        console.log("  - CONSULTA :  Muestra todos los estudiantes inscritos" );
+        console.log("  - RUT rut :  Muestra la información de un estudiante según su rut");
+        console.log("  - NUEVO nombre rut curso nivel :  Permite agregar un nuevo estudiante a la base de datos");
+        console.log("  - EDITAR nombre rut curso nivel : Actualiza la información de un estudiante según su rut");
+        console.log("  - ELIMINAR rut :  Elimina un estudiate de la base de datos según su rut");
+        console.log("  - HELP/? : Muestra esta ayuda");
+        console.log("");
+        console.log("");
+
+        client.end();
+
+        break;
+
 }
+
+
 
