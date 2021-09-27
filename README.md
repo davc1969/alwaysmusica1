@@ -10,9 +10,8 @@ las opciones disponibles son:
  - **EDITAR** *nombre*, *rut*, *curso*, *nivel*: edita la inffromación del estudiante que tenga ese rut
  - **ELIMINAR** *rut*: elimina de la base de datos al estudiante que tenga ese rut
  - **HELP** o **?**: muestra un mensaje de ayuda al usuario
- **
- Para hacere esto se utilizó la clase **Client** de la librería **pg** de node.
+ 
+ Para hacer esto se utilizó la clase **Client** de la librería **pg** de node.
 
 
  Hecho por *Darío Valenzuela*, septiembre 2021
- 
