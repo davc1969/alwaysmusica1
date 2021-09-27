@@ -1,0 +1,26 @@
+{
+  "name": "desafio-always-musica",
+  "version": "1.0.0",
+  "description": "manejo de base de datos por linea de comando en node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgres",
+    "node",
+    "base",
+    "de",
+    "datos",
+    "database",
+    "command",
+    "line",
+    "argumentos"
+  ],
+  "author": "Darío Valenzuela",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "pg": "^8.7.1"
+  }
+}
